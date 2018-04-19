@@ -3,8 +3,9 @@ Homepage: https://bitbucket.org/fdik/pypeg/
 Maintainer: Fritz Reichwald <reichwald@b1-systems.de>
 Section: python
 Priority: optional
-Build-Depends: debhelper (>= 9),
-               python3 (>= 3.4)
+Build-Depends: debhelper (>= 11),
+               python3 (>= 3.5),
+	       dh-python
 Standards-Version: 3.9.8
 Testsuite: autopkgtest-pkg-python
 
