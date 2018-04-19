@@ -6,7 +6,7 @@ Priority: optional
 Build-Depends: debhelper (>= 11),
                python3 (>= 3.5),
 	       dh-python
-Standards-Version: 3.9.8
+Standards-Version: 4.1.4
 Testsuite: autopkgtest-pkg-python
 
 Package: python3-pypeg2
