@@ -1,6 +1,13 @@
+pypeg2 (2.15.2-2) UNRELEASED; urgency=medium
+
+  * Adding Testsuite
+  * Fixing minor formatting mistakes
+
+ -- Fritz Reichwald <reichwald@b1-systems.de>  Thu, 19 Apr 2018 23:22:22 +0200
+
 pypeg2 (2.15.2-1) unstable; urgency=low
 
   * Initial release. (Closes: #832937)
-  * Fix setup.py to not install examples to /usr/bin 
+  * Fix setup.py to not install examples to /usr/bin
 
  -- Fritz Reichwald <mail@fritzreichwald.de>  Mon, 15 May 2017 23:20:47 +0200
