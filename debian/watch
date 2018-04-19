@@ -1,0 +1,3 @@
+version=3
+opts="downloadurlmangle=s|/[^/]+/[^/]+/\.\./\.\./|/|;s|^(.*/.*)\#md5.*$|$1|,filenamemangle=s|.*/(.*)\#md5.*$|$1|" \
+https://pypi.python.org/simple/pypeg2/ .*/pyPEG2-(.*)\.(?:zip|tgz|tbz2|txz|tar\.(?:gz|bz2|xz)).*

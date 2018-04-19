@@ -1,0 +1,10 @@
+#!/usr/bin/make -f
+export PYBUILD_NAME=pypeg2
+%:
+	dh $@ --with python3 --buildsystem=pybuild
+
+override_dh_auto_build:
+	python3 setup.py build
+
+override_dh_auto_install:
+	python3 setup.py install --root=debian/python3-pypeg2 --install-layout=deb --optimize=1

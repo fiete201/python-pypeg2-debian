@@ -1,0 +1,21 @@
+Source: pypeg2
+Homepage: https://bitbucket.org/fdik/pypeg/
+Maintainer: Fritz Reichwald <reichwald@b1-systems.de>
+Section: python
+Priority: optional
+Build-Depends: debhelper (>= 9),
+               python3 (>= 3.4)
+Standards-Version: 3.9.8
+Testsuite: autopkgtest-pkg-python
+
+Package: python3-pypeg2
+Architecture: all
+Depends: ${misc:Depends},
+         ${python3:Depends}
+Description: Intrinsic PEG Parser-Interpreter for Python
+ Python is a nice scripting language. It even gives you access to its own parser
+ and compiler. It also gives you access to different other parsers for special
+ purposes like XML and string templates.
+ .
+ But sometimes you may want to have your own parser. This is what's pyPEG for.
+ And pyPEG supports Unicode.
