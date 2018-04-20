@@ -5,7 +5,8 @@ Section: python
 Priority: optional
 Build-Depends: debhelper (>= 11),
                python3 (>= 3.5),
-	       dh-python
+	       dh-python,
+	       python3-distutils
 Standards-Version: 4.1.4
 Testsuite: autopkgtest-pkg-python
 
