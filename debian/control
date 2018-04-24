@@ -1,12 +1,14 @@
 Source: pypeg2
 Homepage: https://bitbucket.org/fdik/pypeg/
 Maintainer: Fritz Reichwald <reichwald@b1-systems.de>
+Vcs-Browser: https://github.com/fiete201/python-pypeg2-debian
+Vcs-Git: https://github.com/fiete201/python-pypeg2-debian.git
 Section: python
 Priority: optional
 Build-Depends: debhelper (>= 11),
+               dh-python,
                python3 (>= 3.5),
-	       dh-python,
-	       python3-distutils
+               python3-distutils
 Standards-Version: 4.1.4
 Testsuite: autopkgtest-pkg-python
 
