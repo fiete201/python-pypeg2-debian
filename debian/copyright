@@ -1,7 +1,7 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: pyPEG2
 Upstream-Contact: Volker Birk <vb@dingens.org>
-Source: http://fdik.org/pyPEG2
+Source: https://fdik.org/pyPEG2
 
 Files: *
 Copyright: Volker Birk <vb@dingens.org>

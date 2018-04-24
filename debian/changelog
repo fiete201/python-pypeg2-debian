@@ -3,8 +3,9 @@ pypeg2 (2.15.2-2) unstable; urgency=medium
   * Adding Testsuite
   * Minor packaging updates
   * Fix missing build-dep python3-distutils (Closes: #896735).
+  * Use https for upstream URL in changelog
 
- -- Fritz Reichwald <reichwald@b1-systems.de>  Thu, 19 Apr 2018 23:22:22 +0200
+ --  Fritz Reichwald <reichwald@b1-systems.de>  Wed, 25 Apr 2018 00:42:23 +0200
 
 pypeg2 (2.15.2-1) unstable; urgency=low
 
