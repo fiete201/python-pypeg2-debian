@@ -1,7 +1,7 @@
 pypeg2 (2.15.2-2) UNRELEASED; urgency=medium
 
   * Adding Testsuite
-  * Fixing minor formatting mistakes
+  * Minor packaging updates
   * Fix missing build-dep python3-distutils (Closes: #896735).
 
  -- Fritz Reichwald <reichwald@b1-systems.de>  Thu, 19 Apr 2018 23:22:22 +0200
