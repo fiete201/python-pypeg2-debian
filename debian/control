@@ -3,6 +3,7 @@ Homepage: https://bitbucket.org/fdik/pypeg/
 Maintainer: Fritz Reichwald <reichwald@b1-systems.de>
 Vcs-Browser: https://github.com/fiete201/python-pypeg2-debian
 Vcs-Git: https://github.com/fiete201/python-pypeg2-debian.git
+Rules-Requires-Root: no
 Section: python
 Priority: optional
 Build-Depends: debhelper (>= 13),
