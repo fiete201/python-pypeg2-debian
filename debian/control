@@ -6,6 +6,7 @@ Vcs-Git: https://github.com/fiete201/python-pypeg2-debian.git
 Section: python
 Priority: optional
 Build-Depends: debhelper (>= 13),
+               debhelper-compat (= 13),
                dh-python,
                python3 (>= 3.4),
                python3-distutils
