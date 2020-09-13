@@ -11,7 +11,7 @@ Build-Depends: debhelper (>= 13),
                dh-python,
                python3 (>= 3.4),
                python3-distutils
-Standards-Version: 4.1.4
+Standards-Version: 4.1.5
 Testsuite: autopkgtest-pkg-python
 
 Package: python3-pypeg2
